@@ -7,7 +7,7 @@ The Inspiration for this came from the feeling that we are living on EARTH and w
 
 ## Demo 
 
-{% codesandbox https://codesandbox.io/embed/szrlcm?view=preview&module=%2Findex.html %}
+https://codesandbox.io/embed/szrlcm?view=preview&module=%2Findex.html
 
 GitHub Link(https://github.com/ritik1009/Happy-earth-_day)
 
