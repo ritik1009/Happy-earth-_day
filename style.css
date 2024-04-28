@@ -1,0 +1,391 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background: black;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.cloud_1 {
+  position: absolute;
+  transform: scale(0.65) translate(-15%,-19%);
+  animation: blink;
+  overflow: hidden;
+}
+
+.cloud_2{
+  position: absolute;
+  transform: scale(0.65) translate(61%,6%);
+  overflow: hidden;
+}
+.earth {
+  background: url(https://climate.nasa.gov/system/resources/detail_files/41_StingofClimateChange_detail_768x432.jpg);
+  width: 41vh; /*img height is 432px*/
+  height: 41vh; /*img height*/
+  border-radius: 50%;
+  animation: earth 10s infinite linear forwards;
+  box-shadow: 1px 1px 10px rgb(255, 255, 255);
+  margin: 0 auto;
+  position: absolute;
+  left: 40vw;
+  top: 30vh;
+}
+.earth-container{
+  animation:blink 3s linear;
+}
+.main-section {
+  height: 100vh;
+  width: 100vw;
+  background-color: #061928;
+}
+
+/* Happy earth Day Text */
+
+.happy_earth_day_text{
+  position: absolute;
+  top: 0;
+  height: 20%;
+  width: 72%;
+  left: 21vw;
+  top: -6vh;
+  animation:blink 4s cubic-bezier(.6,.04,.98,.34);
+}
+
+
+/* End */
+
+@keyframes earth {
+  0% {
+    background-position: left top;
+  }
+
+  100% {
+    background-position: 768px top; /*img width is 768px*/
+  }
+}
+
+@keyframes blink {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0.5;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+/* .stars{
+  animation: blink 1s linear infinite;
+} */
+
+.top-hand {
+  margin-bottom: 10rem;
+}
+
+.extra_star {
+  position: absolute;
+  height: 100vh;
+  width: 100vw;
+}
+
+/* Star Animation */
+#XMLID_1560_ {
+  transform: translate(10%, 10%);
+  animation: blink 1s linear infinite 1s;
+}
+
+#XMLID_1561_ {
+  transform: translate(31%, 13%);
+  animation: blink 1.2s linear infinite 2s;
+}
+#XMLID_1562_ {
+  transform: translate(28%, 82%);
+  animation: blink 1s linear infinite 1s;
+}
+#XMLID_1563_ {
+  transform: translate(55%, 55%);
+  animation: blink 1.2s linear infinite 2s;
+}
+#XMLID_1564_ {
+  transform: translate(80%, 8%);
+  animation: blink 1.2s linear infinite 2s;
+}
+#XMLID_1565_ {
+  transform: translate(75%, 57%);
+  animation: blink 1.2s linear infinite 2s;
+}
+#XMLID_1566_ {
+  transform: translate(90%, 9%);
+  animation: blink 1.2s linear infinite 2s;
+}
+
+#XMLID_1567_ {
+  transform: translate(12%, 90%);
+  animation: blink 1s linear infinite 1s;
+}
+#XMLID_1568_ {
+  transform: translate(20%, 78%);
+  animation: blink 1s linear infinite 1s;
+}
+#XMLID_1569_ {
+  transform: translate(22%, 50%);
+  animation: blink 1s linear infinite 1s;
+}
+#XMLID_1570_ {
+  transform: translate(20%, 32%);
+  animation: blink 1.3s linear infinite 3s;
+}
+#XMLID_1571_ {
+  transform: translate(9%, 29%);
+  animation: blink 1.3s linear infinite 3s;
+}
+
+#XMLID_1572_ {
+  transform: translate(79%, 49%);
+  animation: blink 1.3s linear infinite 3s;
+}
+
+#XMLID_1573_ {
+  transform: translate(69%, 19%);
+  animation: blink 1.3s linear infinite 3s;
+}
+
+#XMLID_1574_ {
+  transform: translate(75%, 2%);
+  animation: blink 1.3s linear infinite 3s;
+}
+
+#XMLID_1575_ {
+  transform: translate(85%, 20%);
+  animation: blink 1.3s linear infinite 3s;
+}
+
+#XMLID_1576_ {
+  transform: translate(9%, 29%);
+  animation: blink 1.5s linear infinite 3s;
+}
+
+#XMLID_1577_ {
+  transform: translate(9%, 29%);
+  animation: blink 1.5s linear infinite 3s;
+}
+
+#XMLID_1578_ {
+  transform: translate(9%, 29%);
+  animation: blink 1.5s linear infinite 3s;
+}
+
+#XMLID_1579_ {
+  transform: translate(9%, 29%);
+  animation: blink 1.5s linear infinite 3s;
+}
+#XMLID_1580_ {
+  transform: translate(9%, 29%);
+  animation: blink 1.5s linear infinite 3s;
+}
+
+#XMLID_1581_ {
+  transform: translate(90%, 79%);
+  animation: blink 1.5s linear infinite 3s;
+}
+
+#XMLID_1582_ {
+  transform: translate(88%, 59%);
+  animation: blink 1.5s linear infinite 1s;
+}
+
+#XMLID_1583_ {
+  transform: translate(8%, 69%);
+  animation: blink 1.5s linear infinite 1s;
+}
+
+#XMLID_1584_ {
+  transform: translate(5%, 49%);
+  animation: blink 1.5s linear infinite 1s;
+}
+#XMLID_1585_ {
+  transform: translate(18%, 9%);
+  animation: blink 1.5s linear infinite 1s;
+}
+#XMLID_1586_ {
+  transform: translate(59%, 69%);
+  animation: blink 1.5s linear infinite 1s;
+}
+#XMLID_33_ {
+  
+  animation: blink 1.5s linear infinite 1s;
+}
+#XMLID_78_ {
+  
+  animation: blink 1.5s linear infinite 1s;
+}
+#XMLID_149_ {
+  
+  animation: blink 1.5s linear infinite 1s;
+}
+#XMLID_156_ {
+  
+  animation: blink 1.5s linear infinite 1s;
+}
+#XMLID_155_ {
+  
+  animation: blink 1.5s linear infinite 1s;
+}
+#XMLID_136_ {
+  
+  animation: blink 1.5s linear infinite 1s;
+}
+#XMLID_73_ {
+  
+  animation: blink 1.5s linear infinite 1s;
+}
+#XMLID_35_ {
+  
+  animation: blink 1.5s linear infinite 1s;
+}
+#XMLID_32_ {
+  
+  animation: blink 1.5s linear infinite 1s;
+}
+#XMLID_31_ {
+  
+  animation: blink 1.5s linear infinite 1s;
+}
+
+#XMLID_103_ {
+  
+  animation: blink 1.5s linear infinite 1s;
+}
+#XMLID_165_ {
+  
+  animation: blink 1.5s linear infinite 1s;
+}
+#XMLID_102_ {
+  
+  animation: blink 1.5s linear infinite 1s;
+}
+#XMLID_37_ {
+  
+  animation: blink 1.5s linear infinite 1s;
+}
+#XMLID_135_ {
+  
+  animation: blink 1.5s linear infinite 1s;
+}
+#XMLID_37_ {
+ 
+  animation: blink 1.5s linear infinite 1s;
+}
+#XMLID_154_ {
+
+  animation: blink 1.5s linear infinite 1s;
+}
+#XMLID_36_ {
+
+  animation: blink 1.5s linear infinite 1s;
+}
+
+#XMLID_34_ {
+  animation: blink 1.5s linear infinite 1s;
+}
+
+/* Hand Animation */
+
+
+
+#XMLID_50_{
+  display: none;
+}
+#XMLID_22_{
+  animation: blink 7.5s cubic-bezier(.6,.04,.98,.34) ;
+}
+
+/* .earth{
+  animation: blink 5s linear ;
+} */
+
+/* Upper Hand */
+#XMLID_56_{
+  transform-origin: 0% 20%;
+  animation:upperHand 1s linear ;
+}
+
+/* Lower Hand */
+#XMLID_21_{
+  transform-origin: 90% 71%;
+  animation:lowerHand 1s linear ;
+}
+
+/* flower */
+
+#XMLID_169_{
+  animation:blink 5s cubic-bezier(.6,.04,.98,.34) ;
+}
+#XMLID_30_{
+  animation: blink 5s cubic-bezier(.6,.04,.98,.34) ;
+}
+
+#XMLID_48_{
+  animation: blink 5s cubic-bezier(.6,.04,.98,.34) ;
+}
+#XMLID_166_{
+  animation: blink 5s cubic-bezier(.6,.04,.98,.34) ;
+}
+#XMLID_172_{
+  animation: blink 5s cubic-bezier(.6,.04,.98,.34) ;
+}
+#XMLID_181_{
+  animation: blink 5s cubic-bezier(.6,.04,.98,.34) ;
+}
+#XMLID_175_{
+  animation: blink 5s cubic-bezier(.6,.04,.98,.34) ;
+}
+#XMLID_169_{
+  animation: blink 5s cubic-bezier(.6,.04,.98,.34) ;
+}
+#XMLID_186_{
+  animation: blink 5s cubic-bezier(.6,.04,.98,.34) ;
+}
+#XMLID_177_{
+  animation: blink 8s cubic-bezier(.6,.04,.98,.34) ;
+}
+
+#XMLID_140_{
+  animation: blink 9s cubic-bezier(.6,.04,.98,.34) ;
+}
+
+#XMLID_144_{
+  animation: blink 10s cubic-bezier(.6,.04,.98,.34) ;
+}
+
+#XMLID_148_{
+  animation: blink 11s cubic-bezier(.6,.04,.98,.34) ;
+}
+
+
+@keyframes upperHand {
+  0%{
+  transform: rotate(40deg) scale(1.5);
+  
+  }
+  100%{
+    transform: rotate(0deg) scale(1);
+  }
+}
+
+@keyframes lowerHand {
+  0%{
+  transform: rotate(40deg) scale(1.5);
+  
+  }
+  100%{
+    transform: rotate(0deg) scale(1);
+  }
+  
+}
